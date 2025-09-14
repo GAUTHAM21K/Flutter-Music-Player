@@ -73,21 +73,27 @@ The project is organized as follows:
 
 lib/
 ├── main.dart                  # Entry point of the app
+
 ├── models/                    # Data models
 │   ├── song_model.dart
 │   └── song_model.g.dart
+
 ├── providers/                 # State management providers
 │   ├── mini_player_provider.dart
 │   ├── player_provider.dart
 │   └── songs_provider.dart
+
 ├── repositories/              # Data repositories
 │   └── song_repository.dart
+
 ├── screens/                   # UI screens
 │   ├── mini_player.dart
 │   ├── player_screen.dart
 │   └── playlist_screen.dart
+
 ├── services/                  # Services for data handling
 │   └── song_service.dart
+
 └── widgets/                   # Reusable UI components
     ├── player_controls.dart
     ├── progress_bar.dart
